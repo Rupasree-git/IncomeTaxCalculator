@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(72, 67, 67);
+    color: aliceblue;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+#parent{
+    border: red;
+    background-color: wheat;
+    color: black;
+    width: 550px;
+    height:500px
+    
+}
+h1{
+  font-size: 60px;
+  font-weight: bold;
+  margin-left: 80px;
+  background: linear-gradient(90deg, #320404, #046f23, #022a4c, #26097d);
+  background-size: 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: move 5s linear infinite;
+}
+
+@keyframes move {
+  from { background-position: 0%; }
+  to { background-position: 300%; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+#income{
+    margin-left: 70px;
+    font-size: 30px;
+}
+#itext{
+    margin-left: 180px;
+    font-size: 20px;
+}
+#btncalc{
+    background-color: antiquewhite;
+    font-weight: bold;
+    margin-left: 210px ;
+}
+
+h2{
+  font-size: 60px;
+  font-weight: bold;
+  margin-left: 80px;
+  background: linear-gradient(90deg, #3b0d9c, #bd0b99, #0877d1, #a014bc);
+  background-size: 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: move 5s linear infinite;
+}
+
+@keyframes move {
+  from { background-position: 0%; }
+  to { background-position: 300%; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
